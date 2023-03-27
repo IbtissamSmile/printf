@@ -1,12 +1,12 @@
 #include <stdarg.h>
 #include "main.h"
 /**
- * printer - print to stdout
+ * print_format - print to stdout
  * @c: character to check
  * @ptr: fromwe can get value to print
  * Return: length of string
  */
-int print_char(char c, va_list ptr)
+int print_format(char c, va_list ptr)
 {
 	int len = 0;
 
